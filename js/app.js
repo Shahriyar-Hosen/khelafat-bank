@@ -7,6 +7,10 @@ document.getElementById('submit-btn').addEventListener('click', function () {
      const passwordValue = inputPassword.value;
 
      if (emailValue == 'khelafate@islam.com' && passwordValue == 'islamia') {
-         window.location.href = 'banking.html'
+         window.location.href = 'bank.html'
      }
+})
+
+document.getElementById('diposit-btn').addEventListener('click', function () {
+    
 })
